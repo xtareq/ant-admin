@@ -23,9 +23,11 @@ export default function AppLayout({ children }:any) {
 
     return (
         <Layout>
-          <Sider trigger={null} collapsible collapsed={collapsed}>
-            <div className="logo" />
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+          <Sider theme="light" trigger={null} collapsible collapsed={collapsed}>
+            <div className="logo">
+                <img src="/antlogo1.svg" alt="" width="50" />
+            </div>
+            <Menu theme="light" mode="inline" defaultSelectedKeys={['1']}>
               <Menu.Item key="1" icon={<UserOutlined />}>
                 nav 1
               </Menu.Item>
