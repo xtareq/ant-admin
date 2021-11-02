@@ -1,5 +1,8 @@
 import {
   AlipayCircleOutlined,
+  FacebookOutlined,
+  GithubOutlined,
+  GoogleOutlined,
   LockOutlined,
   MobileOutlined,
   TaobaoCircleOutlined,
@@ -96,9 +99,12 @@ const Login: React.FC = () => {
               id="pages.login.loginWith"
               defaultMessage="其他登录方式"
             />,
-            <AlipayCircleOutlined key="AlipayCircleOutlined" className={styles.icon} />,
-            <TaobaoCircleOutlined key="TaobaoCircleOutlined" className={styles.icon} />,
-            <WeiboCircleOutlined key="WeiboCircleOutlined" className={styles.icon} />,
+            // <AlipayCircleOutlined key="AlipayCircleOutlined" className={styles.icon} />,
+            // <TaobaoCircleOutlined key="TaobaoCircleOutlined" className={styles.icon} />,
+            // <WeiboCircleOutlined key="WeiboCircleOutlined" className={styles.icon} />,
+            <GithubOutlined key="GithubOutlined" className={styles.icon} />,
+            <GoogleOutlined key="GoogleOutlined" className={styles.icon} />,
+            <FacebookOutlined key="FacebookOutlined" className={styles.icon} />,
           ]}
           onFinish={async (values) => {
             await handleSubmit(values as API.LoginParams);
