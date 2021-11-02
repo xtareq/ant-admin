@@ -6,15 +6,15 @@ const Settings: LayoutSettings & {
 } = {
   navTheme: 'light',
   // 拂晓蓝
-  primaryColor: '#1890ff',
+  primaryColor: '#8a38ad',
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Ant Design Pro',
+  title: 'Ant Admin',
   pwa: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: 'http://localhost:8001/logo.png',
   iconfontUrl: '',
 };
 
