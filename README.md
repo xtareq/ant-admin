@@ -1,6 +1,6 @@
-# Ant Design Pro
+# Ant Admin
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+This project is initialized with [Ant Admin](). Follow is the quick guide for how to use.
 
 ## Environment Prepare
 
